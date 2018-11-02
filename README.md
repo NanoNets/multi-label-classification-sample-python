@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://nanonets.com/objectdetection/">
+  <a href="https://nanonets.com/">
     <img src="https://nanonets.com/logo.png" alt="NanoNets Object Detection Python Sample" width="100"/>
     </a>
 </div>
