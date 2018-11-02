@@ -36,7 +36,7 @@ def upload_images(model_id):
                 'data' :('', '[{"filename":"%s", "categories": %s}]'%(image_name, json.dumps(labels)))}
         response = requests.post(url, auth= requests.auth.HTTPBasicAuth(AUTH_KEY, ''), files=data)
     print ("%d of %d images has been uploaded"%(i, n))
-    return json.loads(response)
+    return json.loads(response.text)
 
 if __name__=="__main__":
     upload_images(MODEL_ID)
