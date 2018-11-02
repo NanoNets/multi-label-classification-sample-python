@@ -4,7 +4,7 @@
     </a>
 </div>
 
-<h1 align="center">NanoNets Object Detection PHP Sample</h1>
+<h1 align="center">NanoNets Object Detection Python Sample</h1>
 
 | [Python Sample](https://github.com/NanoNets/multilabel-classifiaction-sample-python)|
 | -------------------------- |
@@ -41,7 +41,7 @@ export NANONETS_API_KEY=YOUR_API_KEY_GOES_HERE
 
 ### Step 4: Create a New Model
 ```bash
-php ./code/create_model.py
+python ./code/create_model.py
 ```
  >_**Note:** This generates a MODEL_ID that you need for the next step
 
@@ -54,28 +54,28 @@ export NANONETS_MODEL_ID=YOUR_MODEL_ID
 ### Step 6: Upload the Training Data
 The training data is found in ```images``` (image files) and ```annotations``` (annotations for the image files)
 ```bash
-php ./code/upload_training.py
+python ./code/upload_training.py
 ```
 
 ### Step 7: Train Model
 Once the Images have been uploaded, begin training the Model
 ```bash
-php ./code/train_model.py
+python ./code/train_model.py
 ```
 
 ### Step 8: Get Model State
 The model takes ~2 hours to train. You will get an email once the model is trained. In the meanwhile you check the state of the model
 ```bash
-php ./code/model_state.py
+python ./code/model_state.py
 ```
 
 ### Step 9: Make Prediction
 Once the model is trained. You can make predictions using the model
 ```bash
-php ./code/prediction.py PATH_TO_YOUR_IMAGE.jpg
+python ./code/prediction.py PATH_TO_YOUR_IMAGE.jpg
 ```
 
 **Sample Usage:**
 ```bash
-php ./code/prediction.py ./multilabel_data/ImageSets/2795.jpg
+python ./code/prediction.py ./multilabel_data/ImageSets/2795.jpg
 ```
