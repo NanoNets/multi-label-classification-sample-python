@@ -4,15 +4,15 @@
     </a>
 </div>
 
-<h1 align="center">NanoNets Object Detection Python Sample</h1>
+<h1 align="center">NanoNets Multi Label Classification Python Sample</h1>
 
-| [Python Sample](https://github.com/NanoNets/multilabel-classifiaction-sample-python)|
+| [Python Sample](https://github.com/NanoNets/multi-label-classification-sample-python)|
 | -------------------------- |
-| [![](http://kata.coderdojo.com/images/thumb/e/ea/Python_logo.png/100px-Python_logo.png)](https://github.com/NanoNets/multilabel-classifiaction-sample-python) |
+| [![](http://kata.coderdojo.com/images/thumb/e/ea/Python_logo.png/100px-Python_logo.png)](https://github.com/NanoNets/multi-label-classification-sample-python) |
 
 ** **
 
-## Tracking the Millenium Falcon
+## Detect Movie Genre from its Poster
 
 Images and annotations taken from - https://www.kaggle.com/neha1703/movie-genre-from-its-poster/home
 
@@ -23,12 +23,12 @@ Annotations are present for each poster and have the same name as the image name
 
 ** **
 
-# Build an Object Detector for the Millenium Falcon
+# Build an Classifier for movie genre
  
 ### Step 1: Clone the Repo
 ```bash
-git clone https://github.com/NanoNets/multilabel-classifiaction-sample-python.git
-cd multilabel-classifiaction-sample-python
+git clone https://github.com/NanoNets/multi-label-classification-sample-python
+cd multi-label-classification-sample-python
 ```
 
 ### Step 2: Get your free API Key
