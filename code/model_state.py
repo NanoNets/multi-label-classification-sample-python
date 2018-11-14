@@ -15,7 +15,7 @@ def get_model(model_id):
         print "The model isn't ready yet, it's status is:", status
         print "We will send you an email when the model is ready. If your imapatient, run this script again in 10 minutes to check."
         print "\n\nmore details at:"
-        print "https://app.nanonets.com/ObjectLocalize/?appId="+model_id
+        print "https://app.nanonets.com/multilabelclassification/#/classify/"+model_id
     else:
         print "NEXT RUN: python ./code/prediction.py ../multilabel_data/ImageSets/image_0001.jpg"
 

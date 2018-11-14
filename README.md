@@ -12,7 +12,7 @@
 
 ** **
 
-## Detect Movie Genre from its Poster
+<!-- ## Detect Movie Genre from its Poster
 
 Images and annotations taken from - https://www.kaggle.com/neha1703/movie-genre-from-its-poster/home
 
@@ -21,9 +21,9 @@ Images consists of Posters of movies taken from IMBD across different Genre. For
 Annotations are present for each poster and have the same name as the image name. You can find the example to train a model in python, by updating the api-key and model id in corresponding file. There is also a pre-processed .txt annotations folder that are ready payload for nanonets api.
 
 
-** **
+** ** -->
 
-# Build an Classifier for movie genre
+# Build an Classifier for Natural Scene
  
 ### Step 1: Clone the Repo
 ```bash
