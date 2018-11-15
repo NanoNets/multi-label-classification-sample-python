@@ -6,7 +6,7 @@ BASE_URL = 'http://app.nanonets.com/api/v2/MultiLabelClassification/'
 AUTH_KEY = os.environ.get('NANONETS_API_KEY')
 
 
-categories = ['Adventure', 'Comedy', 'Crime', 'Drama', 'Horror', 'Musical', 'Mystery', 'Romance', 'Short']
+categories = ["desert", "mountains", "sea", "sunset", "trees"]
 ext = ['.jpeg', '.jpg', ".JPG", ".JPEG"]
 
 
