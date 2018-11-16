@@ -11,7 +11,7 @@ def train(model_id):
     response = requests.request('POST', url, auth=requests.auth.HTTPBasicAuth(AUTH_KEY, ''))
     
     result = json.loads(response.text)
-    print result
+    print(result)
 
 if __name__=="__main__":
     train(MODEL_ID)

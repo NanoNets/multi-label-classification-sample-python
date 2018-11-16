@@ -14,7 +14,7 @@ def predict(image_file_path, model_id):
     data = {'files': open(image_file_path, 'rb')}
 
     response = requests.post(url, auth= requests.auth.HTTPBasicAuth(AUTH_KEY, ''), files=data)
-    print json.loads(response.text)
+    print(json.loads(response.text))
 
 if __name__=="__main__":
     image_file_path = sys.argv[1]
