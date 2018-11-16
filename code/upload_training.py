@@ -24,7 +24,7 @@ def upload_images(model_id):
     url = BASE_URL + 'Model/%s/UploadFiles/'%(model_id)
     print ("Uploading Images......")
     image_label_dictionary = create_image_dictionary()
-    all_images = image_label_dictionary.keys()
+    all_images = list(image_label_dictionary.keys())
     random.shuffle(all_images)
     n = len(all_images)
     image_uploaded = 0
@@ -45,7 +45,6 @@ def upload_images(model_id):
             print ("%d of %d images has been uploaded, uploading next batch...."%(image_uploaded, n))
         else:
             print ("%d of %d images has been uploaded, Done uploading"%(image_uploaded, n))
-    print get_model(model_id)
     return 
 
 if __name__=="__main__":
